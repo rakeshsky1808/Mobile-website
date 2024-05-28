@@ -1,0 +1,318 @@
+.header
+{
+    background-color:black;
+    color: black;
+    width: 100%;
+    text-align: center;
+    height:70px;
+    border: 10px;justify-content: space-between;
+    position:sticky!important;
+    
+   
+}
+#p
+{
+
+float:left;
+font-size: 20px;
+margin-left: 20px;
+
+
+}
+
+
+input
+{
+  margin-top:25px ; 
+  border-radius:10px 4px; 
+  width:400px;
+  height:30px;
+
+}
+button
+{
+   height: 25px; 
+   width:60px;
+   border-radius:10px ;background-color:ffc43d ;
+   
+   
+}
+.button
+{
+   margin-left:200px;
+   
+}
+.button a 
+{
+padding-left: 150px;
+font-size:25px;
+color: rgb(243, 246, 245);
+margin-top: 20px;
+
+}
+#cart-count{
+    padding-left: 10px;
+    color:rgba(242, 171, 6, 0.881);
+    font-size: 15px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+  }
+.button a
+{
+    font-size: 15px;
+}
+   
+   #add button
+   {
+    background-color: rgb(223, 195, 13);
+    width: 95px;
+    border-radius:15px 0;
+    box-shadow:8px 4px 6px rgb(9, 9, 9);
+    cursor: pointer;
+    margin: 10px;
+     }
+      p
+     {
+        cursor: pointer;
+        
+        border-radius:15PX  ;
+        width:50%;
+        margin-left: 80PX;
+        background-color:rgb(88, 176, 155) ;
+        box-shadow: 8px 4px 6px rgb(9, 9, 9);
+     }
+#navigetion,ul,li
+{
+display: flex;
+width: 100%;
+background-color:212529;
+margin-top: 5px;
+position: relative;
+}
+#navigetion a
+{
+    text-decoration: none;
+    color: aliceblue;
+    position: relative;
+}
+nav ul li a::after
+{
+    content:'';
+    width: 0;
+    height: 3px;
+    background:#f4066d;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+nav ul li a:hover::after
+{
+    width: 100%;
+}
+
+.image
+{
+   margin-top:5px;
+ }
+
+#master
+{
+    display: flex;
+    width: 300px;
+    height:400px ;
+    margin-top: 10px;
+    column-gap:70px;
+    margin-left:20px ;
+    margin-bottom:20px ;
+}
+.resist
+{
+    display: flex;
+    width:80px ;
+    height:300px ;
+    margin-left: 60px; 
+    margin-top:20px ;
+    margin-bottom:20px ;
+    
+}
+.midrange
+{
+    width: 200px;
+    height:250px ;
+    display: flex;
+    padding: 20px;
+    column-gap:20px;
+
+    
+    
+}
+
+.apple
+{
+    background-color:rgb(251, 247, 247);
+    margin-top:20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left:100px;
+    padding: 20px;
+    overflow: scroll;
+    grid-gap: 1vw;
+    }
+   .iphone
+   {background-color: bisque;
+    padding:10px;
+    justify-content: space-between;
+    text-align: center;
+    
+
+
+ } 
+ .redmi
+ {
+    background-color:rgb(251, 247, 247);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:1vw ;
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+
+ }
+ .mi
+ {
+    background-color: bisque;
+    padding: 10px;
+    justify-content: space-between;
+    text-align: center;
+
+ }
+ .vivo
+ {
+    background-color:rgb(251, 247, 247);
+    margin-top:20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left:100px;
+    padding: 20px;
+    overflow: scroll;
+    grid-gap: 1vw;
+}
+.vi
+{
+    background-color:bisque;
+    padding: 10px;
+    justify-content: space-between;
+    text-align: center;
+
+
+}
+.oppo
+{
+    background-color:rgb(251, 247, 247);
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr  ;
+    margin-top:20px ;
+    overflow: scroll;
+    padding: 20px;
+    grid-gap:1vw ;
+
+
+}
+.op
+{
+    background-color:bisque;
+    padding: 10px;
+    justify-content: space-between;
+    text-align: center;
+
+
+}
+.samsung
+{
+    background-color:rgb(251, 247, 247);
+    margin-top:20px ;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    overflow: scroll;
+    grid-gap:1vw;
+
+}
+.sam
+{
+    background-color:bisque;
+    padding: 10px;
+    justify-content: space-between;
+    text-align: center;
+
+}
+ .apple::-webkit-scrollbar
+    {
+        width: 0;
+    }
+    .redmi::-webkit-scrollbar
+    {
+        width: 0;
+    }
+    .vivo::-webkit-scrollbar
+    {
+        width: 0;
+    }
+    .oppo::-webkit-scrollbar
+    {
+        width: 0;
+    }
+    .samsung::-webkit-scrollbar
+    {
+        width:0 ;
+    }
+
+  footer
+  {
+    background-color:black;
+    width: 100%;
+    height:100px;
+    margin-top:10px ;
+    display: flex;
+    color:white;
+    text-decoration: none;
+    display: flex;
+
+    
+  }  
+ 
+  .footer 
+  {
+
+    display:flex;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color:white;
+    font-size:20px ;
+    
+}
+  .social-icon  
+  {
+    margin-left: 500px;
+    display: flex;
+    margin-top: 40px;
+    }
+    .social-icon a{
+        padding-left: 35px;
+        cursor: pointer;
+    }
+  .copyright
+  {
+    margin-left:490px;
+    
+    display: flex;
+    margin-top: 40px;
+    
+  }
+  
+

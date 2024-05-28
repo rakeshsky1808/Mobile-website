@@ -1,0 +1,256 @@
+
+<!----
+<script>
+//     let person={
+//       name:"rakesh",
+//       age:22,
+//       lastname:"sky",
+
+//     get getting(){
+//         return (`${person.name} ${person.age} ${person.lastname}`);
+
+//       },
+   
+     
+//    set getting(values){
+//     let index=values.split(" "); 
+//     this.name=index[0];
+//     this.age=index[1];
+//     this.lastname=index[2];
+//     }
+   
+
+// };
+// person.getting="kavi 22 arasu"
+//     console.log(person.getting )
+
+
+  //   let arr=[2,3,4,5,6,7,8,9]
+  //   let y=[]
+  //   for(let i=0;i<arr.length;i++){
+  //   y[i]=arr[i]*arr[i];
+  // }
+  //   console.log(y)
+
+    //  ---------------------- map------
+    
+  //  let arr=[1,2,3,4,5,6,7,8,9,22,55,44,66 ];
+  //  let myset1= New set(arr)
+  //  console.log(arr)
+  //  console.log(myset1)
+
+  let userage=[1,2,3,4,55,6,18,15,41,6]
+  // const value=userage.map(item=>item*2)
+  // console.log(value)
+  let value=userage.filter(age=>age>=18)
+  console.log(value)
+
+  // let actor=[
+  //   {name:'ajith',salary:9},
+  //   {name:'vj',salary:14},
+  //   {name:'surya',salary:20},
+  //   {name:'vikram',salary:50}
+  //  ];
+
+  //  let maxsalary=30;
+  //  let minsalary=10;
+  //  const value=actor.filter(hero=>{
+  //   return hero.salary>=minsalary&&hero.salary<=maxsalary;
+  //  }
+  //  )
+  //  console.log(value)
+      
+  </script>
+  --------------------------------22/2/24------
+
+<script>
+  // let age=125;
+  // let type=age>=18?"its eligible":"child"
+  // console.log(type)
+
+  //  let password=false;
+  //  if (password)
+  //  {
+  //   console.log("your are login")
+  //  }
+  //  else{
+  //   console.log("your are not  alow")
+  //  }
+
+  // let color="green"
+  // if(color=="red")
+  // {
+  //   console.log("stop")
+  // }
+  // if(color=="yellow")
+  // {
+  //   console.log("redy")
+  // }
+  // if(color=="green")
+  // {
+  //   console.log('lets Goooo')
+  // }
+
+  // var name='rakesh';
+  // var age=25
+  // var lastname='kavi';
+  // var city='pudukkottai';
+  // console.log(`${name} ${lastname} ${age} ${city}`)
+
+
+  // let catname=`dog's name is "jaki"`
+  // console.log(catname)---
+
+
+  <script>
+
+      // var a=[91,2,32,4,55];  //sort
+      // var b=a.sort();
+      // console.log(b);
+
+      // var a=[10,20,30,40,50];
+      // // var b=a.map((value)=> 2*value)
+      // var blue=a.filter((value)=>value>20)
+      //  console.log(blue)
+
+      //  var sky=[1,2,3,5,5,8,2,4]
+      //  var live=sky.reduce((value,acc)=>value+acc)
+      //  console.log(live)
+
+      var sky='{"addres":{"siva":"pudukkottai","balu":5000,"kavi":6000},"name":"rakesh","age":23,"lastname":"kavi","salary":[{"ram":1000,"jerald":5000,"muthu":8000}]}';
+
+      // let value=JSON.parse(sky);
+      // // document.write("Name:"+value.name )
+      // document.write("ads:"+value.addres.siva);
+      // document.write("<br> Name:"+value.name)
+      // document.write("<br> Lastname:"+value.lastname)
+      // document.write("<br> Age:"+value.age)
+      // document.write("<br> amound:"+value.salary.muthu)
+</script>
+  <------------------------------------------- 27/2/24 map ,reduce,fillter,sort------
+  <script
+     var value=[1,5,9,12,55,66,22,77]
+    let sky=value.sort();
+    console.log(sky)
+    
+       var a=[91,2,32,4,55];  //sort
+      var b=a.sort();
+      console.log(b);
+
+     var man=[1,8,3,5,444,99,55,55,11]
+     var sale=man.filter((value)=>value>20)
+    console.log(sale)
+
+    var rak=[,111,22,5,88,66,44,]
+    var por=rak.reduce((value,acc)=>value*acc)
+    console.log(por)
+
+    var red=[2,5,8,9,6,4,];
+    // consle.log(red);
+    var green=red.map(function(val)
+    {
+      return val-2
+    })
+    console.log(green)
+
+    var civil=[
+      {id:1,firstname:"rakesh",lastname:"sky"},
+      {id:2,firstname:"porkavii",lastname:"kavi"},
+      {id:3,firstname:"caption",lastname:"cool"},
+    ];
+    let mech=civil.map(function(val){
+        let fullname=[val.firstname,val.lastname].join(" ");
+        let obj={id:val.id,fullname:fullname};
+      return obj;
+    })
+    console.log(mech)
+
+    const input = [//array of objects
+{name: 'John',age:15},
+{name: 'Radha', age:45},
+{name: 'Kaushik',age:12},
+{name: 'Anu', age:21},
+{name: 'Divya', age:26}
+]
+let sky=input.map(function(val){
+  return val.age
+})
+console.log(sky)
+
+    
+  </script>
+// --------------------- logic first tamil map--
+
+<script>
+  // let arr=[1,5,5,55,2,6,7,6,4,] ;
+  // let sky=new Set(arr)
+  // console.log(sky)
+  // console.log(arr)
+
+  let myset=new Set();
+  myset.add('rakesh');
+  myset.add('kavi');
+  myset.add(22);
+  myset.add(23);
+  myset.add({'a':1,'b':2});
+
+  // console.log(myset )
+  // myset.add('rakesh')
+  let obj={'a':1,'b':2};
+  myset.add(obj)
+  // console.log(myset.delete('rakesh'))
+  console.log(myset)
+
+  let arr=Array.from(myset)
+  console.log(arr)
+</script>--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+ <p sty="sky">porkaviiiii</p> 
+</body>
+<script>
+  // array1=[1,2,3,4];
+  // array2=[4,5,6,2];
+  // let common=array1.filter((sky)=>array2.includes(sky))
+  // console.log(common)
+
+  // let blue=[15,22,99,99,55,44,4]
+  // // let red=blue.filter((value, index)=>blue.indexOf(value)!==index)
+  // let red=blue.map((value)=>value+2)
+  // console.log(red)
+
+  // let nan=[1,2,3,5,4,8,6,5]
+  // for(let i=0;i<nan.length;i++)
+  // if(nan[i]%1===0)
+  // console.log(nan[i])
+  // ----------------------------------------1/3/24----
+  // -------------------------------------for loop
+  // const train=[1,2,5,8,6,4,5,2,3,6]
+  // for(let i=0;i<train.length;i++){
+  // document.write(train[i])
+  // }
+//   // ---------------------------------------for each loop
+// train.forEach((value)=>
+// {
+//   document.write(value)
+// })
+
+var age="ra"
+var sky=(age==="rakesh")?"hi brother":"not allowed";
+console.log(sky)
+
+//   </script> 
+// </html>
+
+
+
+
+
+ 

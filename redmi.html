@@ -1,0 +1,153 @@
+<script src="https://kit.fontawesome.com/44bf5c0689.js" crossorigin="anonymous"></script>
+<link rel="stylesheet"href="project 2.css">
+</head>
+<body>
+<div class="header">
+    <div id="p">
+        <img src="logo.jpg"width="80px"height="70">
+
+    </div>
+    <div class="button">
+        <input type="search" placeholder="search here...">
+        <button type="button"><i class="fa fa-search"></i></button>
+        <a href="sign up.html"><i class="fa-solid fa-user-pen">Sign up</i></a>
+        <a href="cart.html"onclick="redirectToCart()"><i class="fa-solid fa-cart-shopping"> Cart<span id="cart-count">0</span></i></a>
+
+    </div>
+     </div>
+
+     <nav id="navigetion">
+        <ul>
+     <li><a  href="project 2.html"><b>HOME</b></a></li>
+     <li><a  href="i phone.html"><b>i PHONE</b></a></li>
+     <li><a  href="redmi.html"><b>REDMI</b></a></li>
+     <li><a  href="vivo.html"><b>VIVO</b></a></li>
+     <li><a  href="OPPO.HTML"><b>OPPO</b></a></li>
+     <li><a  href="samsung.html"><b>SAMSUNG</b></a></li>
+
+        </ul>
+     </nav>
+
+     <div class="redmi">
+             <div class="mi">
+            <img src="https://th.bing.com/th/id/OIP.2U3tEJK2RKf0leII0m18SwHaHa?w=161&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7"width="250px" height="300px">
+            <h3><b>REDMI 12C</b></h3>
+            <p><strike><b>$59,900</b></strike> <b> $50,000</b></p>
+            <div id="add">
+                <button onclick="addToCart('redmi', 58900)">Add to Cart</button>
+                <button>Buy Now</button>
+                </div>
+        </div>
+
+        <div class="mi">
+            <img src="https://th.bing.com/th/id/OIP.uNQI0FvhFZbLcYQFZ9KtuQHaHa?w=179&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"width="250px" height="300px">
+            <h3><b>REDMI NOTE 10</b></h3>
+            <p><strike><b>$10,000</b></strike> <b> $8,000</b></p>
+            <div id="add">
+                <button onclick="addToCart('redmi', 58900)">Add to Cart</button>
+                <button>Buy Now</button>
+                </div>    
+        </div>
+
+        <div class="mi">
+            <img src="https://t.ctcdn.com.br/HGXyh5iO2zEE5SfrIZ0xG_0H-NA=/i456074.jpeg"width="250px" height="300px">
+            <h3><b> REDMI NOTE 9T</b></h3>
+            <p><strike><b>$11,000</b></strike> <b> $9,000</b></p>
+            <div id="add">
+                <button onclick="addToCart('redmi', 58900)">Add to Cart</button>
+                <button>Buy Now</button>
+                </div>   
+        </div>
+        <div class="mi">
+            <img src="https://th.bing.com/th/id/OIP.slXS_h2f-MeaEm0sTRBS0gHaEK?w=333&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7"width="300px" height="300px">
+            <h3><b> REDMI NOTE 10 PRO</b></h3>
+            <p><strike><b>$15,900</b></strike> <b> $13,900</b></p>
+            <div id="add">
+                <button onclick="addToCart('redmi', 58900)">Add to Cart</button>
+                <button>Buy Now</button>
+                </div>   
+            
+        </div>
+
+        <div class="mi">
+            <img src="https://th.bing.com/th/id/OIP.rduQ0EVnBgVTR6-3A_NLbAHaHa?pid=ImgDet&rs=1"width="250px" height="300px">
+            <h3><b>REDMI NOTE 10 T</b></h3>
+            <p><strike><b>$25,900</b></strike> <b> $20,000</b></p>
+            <div id="add">
+                <button onclick="addToCart('redmi', 58900)">Add to Cart</button>
+                <button>Buy Now</button>
+                </div>   
+        </div>
+        
+        <div class="mi">
+            <img src="https://th.bing.com/th/id/OIP.3uJMk919IZ08ctuwLYwXzwHaHa?w=164&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"width="250px" height="300px">
+            <h3><b>REDMI 12</b></h3>
+            <p><strike><b>$27,000</b></strike> <b> $23,000</b></p>
+            <div id="add">
+                <button onclick="addToCart('redmi', 58900)">Add to Cart</button>
+                <button>Buy Now</button>
+                </div>    
+        </div>
+
+        <div class="mi">
+            <img src="https://th.bing.com/th/id/OIP.VmjiFe_pmWr2rj711667tAHaHa?w=169&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"width="250px" height="300px">
+            <h3><b>REDMI NOTE 11</b></h3>
+            <p><strike><b>$10,900</b></strike> <b> $9,00</b></p>
+            <div id="add">
+                <button onclick="addToCart('redmi', 58900)">Add to Cart</button>
+                <button>Buy Now</button>
+                </div>
+        </div>
+
+        <div class="mi">
+            <img src="data:image/jpeg;base64,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"width="250px" height="300px">
+            <h3><b>REDMI NOTE 9</b></h3>
+            <p><strike><b>$59,900</b></strike> <b> $58,900</b></p>
+            <div id="add">
+                <button onclick="addToCart('redmi', 58900)">Add to Cart</button>
+                <button>Buy Now</button>
+                </div>  
+        </div>
+    </div>
+
+
+     <footer>
+        <div class="footer">
+            <a href="">Email</a>
+        </div>
+        <div class="social-icon">
+            
+                <a href=""><i class="fab fa-youtube"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-facebook"></i></a>
+        </div>
+                
+            
+            
+            <div class="copyright">&copy;  2023 SAMBLE WEBSITE</div>
+
+             </footer>
+             <script>
+                // Add this JavaScript code
+let cartCount = 0; // Initialize the cart count
+
+function addToCart(productName, price) {
+// Perform your add to cart logic here
+
+// Update the cart count
+cartCount++;
+
+// Display the updated cart count
+updateCartCount();
+}
+
+function updateCartCount() {
+// Update the cart count element
+const cartCountElement = document.getElementById("cart-count");
+cartCountElement.textContent = cartCount.toString();
+}
+
+</script>
+
+</body>
+</html>
